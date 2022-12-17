@@ -1,15 +1,6 @@
 // You can "invent" elements by using functions & return
 function Navigation() {
-  return (
-    <nav>
-      <h1>Reaction</h1>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  );
+  return nav;
 }
 function MainContent() {
   return (
@@ -22,6 +13,16 @@ function MainContent() {
 
 // The JSX you want to render can be placed in a variable
 // using parentheses
+const nav = (
+  <nav>
+    <h1>Big Belly Burger</h1>
+    <ul>
+      <li>Pricing</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+);
 const page = (
   <div>
     <Navigation />
