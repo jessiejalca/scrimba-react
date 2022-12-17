@@ -1,3 +1,4 @@
+// You can "invent" elements by using functions
 function MainContent() {
   return (
     <main>
@@ -7,20 +8,25 @@ function MainContent() {
   );
 }
 
-ReactDOM.render(
+// The JSX you want to render can be placed in a variable
+// using parentheses
+const page = (
   <div>
     <MainContent />
-  </div>,
-  document.body
+  </div>
 );
 
-/* Imperative Method (vanilla JS) --> focus on how should it be done */
+ReactDOM.render(page, document.body);
+
+/* Imperative Method (vanilla JS) 
+   --> focus on how should it be done */
 // const newEl = document.createElement("h1");
 // newEl.textContent = "Let's make a cool website";
 // newEl.className = "header";
 // document.body.append(newEl);
 
-/* Declarative Method (React) --> focus on what should be done */
+/* Declarative Method (React) 
+   --> focus on what should be done */
 // ReactDOM.render(
 //   <h1 className="header">Let's make a cool website</h1>,
 //   document.body
