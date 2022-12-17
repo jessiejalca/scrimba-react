@@ -30,6 +30,8 @@ const page = (
   </div>
 );
 
+// The job of the renderer is to take the JSX objects &
+// turn them into real HTML elements
 ReactDOM.render(page, document.body);
 
 /* Imperative Method (vanilla JS) 
