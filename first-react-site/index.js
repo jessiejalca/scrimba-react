@@ -1,4 +1,16 @@
-// You can "invent" elements by using functions
+// You can "invent" elements by using functions & return
+function Navigation() {
+  return (
+    <nav>
+      <h1>Reaction</h1>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
+}
 function MainContent() {
   return (
     <main>
@@ -12,6 +24,7 @@ function MainContent() {
 // using parentheses
 const page = (
   <div>
+    <Navigation />
     <MainContent />
   </div>
 );
