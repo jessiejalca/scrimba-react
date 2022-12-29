@@ -6,7 +6,7 @@ const Info = () => (
       <section className="card-text">
       <h1>Jessie Jalca</h1>
       <p className="title">Frontend Developer</p>
-      <p><a href="https://github.com/jessiejalca" target="_blank">github.com/jessiejalca</a></p>
+      <p><a className="website" href="https://github.com/jessiejalca" target="_blank">github.com/jessiejalca</a></p>
       <button className="email">Email</button>
     </section>
   </header>

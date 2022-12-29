@@ -16,15 +16,27 @@ body {
 /* Typography */
 h1 {
   font-size: 1.8rem;
+  line-height: 0.9em;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 p {
   font-size: 0.8rem;
   line-height: 150%;
+}
+
+.title {
+  font-size: 0.9rem;
+  color: var(--highlight-color);
+}
+
+.website {
+  color: white;
+  text-decoration: none;
+  line-height: 250%;
 }
 
 /* Layout */
@@ -50,11 +62,12 @@ main > section {
 .email {
   width: 100%;
   font-size: 0.9rem;
+  font-weight: 500;
   color: black;
   background-color: white;
   border: none;
   border-radius: 6px;
-  margin-block: 0.8em;
+  margin-block: 0.6rem;
   padding: 0.4em;
 }
 
