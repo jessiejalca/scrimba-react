@@ -1,4 +1,5 @@
 import profile from "../assets/profile.jpg"
+import email from "../assets/envelope-solid.svg"
 
 const Info = () => (
   <header>
@@ -7,7 +8,7 @@ const Info = () => (
       <h1>Jessie Jalca</h1>
       <p className="title">Frontend Developer</p>
       <p><a className="website" href="https://github.com/jessiejalca" target="_blank">github.com/jessiejalca</a></p>
-      <button className="email">Email</button>
+      <button className="email"><img src={email} />Email</button>
     </section>
   </header>
 );
