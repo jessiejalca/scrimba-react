@@ -1,3 +1,4 @@
+/* Base */
 :root {
   --card-color: #1A1B21;
   --card-footer-color: #161619;
@@ -7,11 +8,63 @@
 
 body {
   background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Typography */
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+
+/* Layout */
 .card {
-  background-color: var(--card-color);
   border-radius: 10px;
   overflow: hidden;
-  max-width: 18rem;
+  max-width: 20rem;
+  background-color: var(--card-color);
+}
+
+.card-text {
+  padding: 1.6rem;
+}
+
+main.card-text {
+  padding-top: 0;
+}
+
+main > section {
+  padding-bottom: 0.8rem;
+}
+
+.email {
+  width: 100%;
+  font-size: 0.9rem;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  margin-block: 0.8em;
+  padding: 0.4em;
+}
+
+/* -- Header */
+header {
+  text-align: center;
+}
+
+/* -- Footer */
+footer {
+  background-color: var(--card-footer-color);
+  padding: 0.8rem;
 }

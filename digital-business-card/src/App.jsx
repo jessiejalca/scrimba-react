@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='card'>
       <Info />
-      <main>
+      <main className='card-text'>
         <About />
         <Interests />
       </main> 
