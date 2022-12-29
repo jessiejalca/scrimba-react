@@ -1,6 +1,7 @@
 const Interests = () => (
   <section>
-    <h2>Interests content</h2>
+    <h2>Interests</h2>
+    <p>Things about me.</p>
   </section>
 );
 

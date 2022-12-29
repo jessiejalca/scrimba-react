@@ -1,0 +1,17 @@
+:root {
+  --card-color: #1A1B21;
+  --card-footer-color: #161619;
+  --highlight-color: #F3BF99;
+  --bg-color: #23252C;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.card {
+  background-color: var(--card-color);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 18rem;
+}
