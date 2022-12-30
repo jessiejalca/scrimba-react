@@ -87,7 +87,7 @@ header {
 /* -- Footer */
 footer {
   background-color: var(--card-footer-color);
-  padding: 0.8rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-evenly;
 }
