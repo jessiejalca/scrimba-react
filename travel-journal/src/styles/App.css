@@ -28,3 +28,60 @@
   width: 1.5em;
   margin-right: 7px;
 }
+
+main {
+  padding: 40px;
+}
+
+.card {
+  font-size: 0.7rem;
+  max-width: 45em;
+  display: flex;
+  margin: auto;
+  padding-block: 18px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.card > img {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  object-fit: cover; /* resize image to fill space keeping aspect ratio */
+}
+
+.card--info {
+  padding: 19px;
+}
+
+.card--location {
+  display: flex;
+}
+
+.card--location > img {
+  width: 0.8rem;
+  margin-right: 2px;
+  margin-bottom: 0.2em;
+}
+
+.card--link {
+  color: var(--gray);
+}
+
+.card--country {
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card--title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.card--date {
+  font-weight: 700;
+}
+
+.card--description {
+  line-height: 150%;
+}
