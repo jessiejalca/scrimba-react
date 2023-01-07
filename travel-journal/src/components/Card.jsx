@@ -1,18 +1,20 @@
 import React from "react";
 
-const Card = () => {
+const Card = (props) => {
+  console.log(props.item);
+
   return (
     <article className="card">
-      <img src="https://source.unsplash.com/WLxQvbMyfas" />
+      <img src={props.item.imageUrl} />
       <div className="card--info">
         <div className="card--location">
           <img src="../public/locationiconImage24px.svg" />
-          <p className="card--country">Japan</p>
-          <a className="card--link" href="">View on Google Maps</a>
+          <p className="card--country">{props.item.location}</p>
+          <a className="card--link" href={props.item.googleMapsUrl}>View on Google Maps</a>
         </div>
-        <h1 className="card--title">Mount Fuji</h1>
-        <p className="card--date">12 Jan, 2021 - 24 Jan, 2021</p>
-        <p className="card--description">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+        <h1 className="card--title">{props.item.title}</h1>
+        <p className="card--date">{props.item.startDate} - {props.item.endDate}</p>
+        <p className="card--description">{props.item.description}</p>
       </div>
     </article>
   )

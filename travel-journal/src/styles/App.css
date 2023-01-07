@@ -1,12 +1,5 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 
   --white: white;
   --coral: #F55A5A;
@@ -34,12 +27,17 @@ main {
 }
 
 .card {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   max-width: 45em;
   display: flex;
+  align-items: center;
   margin: auto;
   padding-block: 18px;
   border-bottom: 1px solid var(--light-gray);
+}
+
+.card:last-of-type {
+  border: none;
 }
 
 .card > img {
@@ -50,7 +48,7 @@ main {
 }
 
 .card--info {
-  padding: 19px;
+  padding: 0 19px;
 }
 
 .card--location {
@@ -75,11 +73,12 @@ main {
 
 .card--title {
   font-size: 1.6rem;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .card--date {
   font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .card--description {
