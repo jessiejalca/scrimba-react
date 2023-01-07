@@ -7,4 +7,24 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --white: white;
+  --coral: #F55A5A;
+  --gray: #918E9B;
+  --light-gray: #F5F5F5;
+}
+
+.navigation {
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  color: var(--white);
+  background-color: var(--coral);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.navigation > img {
+  width: 1.5em;
+  margin-right: 7px;
 }
