@@ -5,4 +5,4 @@ My sandbox for learning React with Scrimba's Learn React course. I'll mostly be 
 A static React app which only functions as a simple business card webpage.
 
 ## [Solo Project 2: Travel Journal](https://profound-torrone-57d164.netlify.app)
-A dynamic app which pulls journal entries from a mock database.
+A static app which pulls journal entries from a mock database with reusable components
